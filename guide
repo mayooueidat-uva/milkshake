@@ -1,0 +1,3 @@
+green means new. 'u' means untracked. this is what the symbols on your side panel mean.
+actually wait. git add . doesn't add them to your project, it just adds them to your gitspace or whatever you want to call it. the 'commit' command commits them to your project.
+'git status' shows you the status of your files in your gitspace.
