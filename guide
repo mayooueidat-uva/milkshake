@@ -1,3 +1,8 @@
 green means new. 'u' means untracked. this is what the symbols on your side panel mean.
 actually wait. git add . doesn't add them to your project, it just adds them to your gitspace or whatever you want to call it. the 'commit' command commits them to your project.
 'git status' shows you the status of your files in your gitspace.
+to add your stuff to github, you NEED to push them. the steps of creating or modifying your git file is add > commit > push.
+if you say 'git push origin main,' it pushes everything THAT YOU HAVE COMMITTED in main into github.
+git log --oneline gives you details on your commit messages and also the id of the files that the commit messages correspond to. just take a look!
+the 'revert' command creates a new commit that takes away a previous commit, and you can revert any commit that you want to!
+though bear in mind that you must commit EVERYTHING in your current space in order to make ANY reversions at all.
